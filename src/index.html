@@ -4,9 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!--=============== Google Font ===============-->
-
     <!--=============== Font Awesome ===============-->
     <script
       src="https://kit.fontawesome.com/c40cf92013.js"
@@ -14,5 +11,79 @@
     ></script>
     <title>Interior Consultant</title>
   </head>
-  <body></body>
+  <body>
+    <div class="main__container">
+      <!--=============== Header ===============-->
+      <header class="header" id="header">
+        <nav class="nav">
+          <a href="#" class="nav__logo">This Interior</a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__items">
+                <a href="#" class="nav__link nav__link--active">Home</a>
+              </li>
+              <li class="nav__items">
+                <a href="#" class="nav__link">Collection</a>
+              </li>
+              <li class="nav__items">
+                <a href="#" class="nav__link">About</a>
+              </li>
+              <li class="nav__items">
+                <a href="#" class="nav__link">Contact</a>
+              </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+
+      <!--=============== Main ===============-->
+      <main class="main" id="main">
+        <div class="main__content">
+          <h1>Modern interior</h1>
+          <p>
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="main__services">
+          <img
+            src="./assets/images/photo1.png"
+            alt=""
+            class="main__service-img"
+          />
+          <div class="main__service">
+            <div class="main__service-header">
+              <img src="./assets/images/photo2.png" alt="#" />
+              <div class="main__service-header-info">
+                <h2>Aliza Webber</h2>
+                <span>Interior designer</span>
+              </div>
+            </div>
+            <div class="main__service-content">
+              <p>Designed in 2020 by Aliza Webber</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!--=============== Footer ===============-->
+      <footer class="footer" id="footer">
+        <p>
+          created by douako-j -
+          <a href="https://devchallenges.io/">devChallenges.io</a>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
