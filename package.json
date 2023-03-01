@@ -4,8 +4,10 @@
   "description": "Third challenge of the Responsive Web developer path on devchallenges.io",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
-    "start": "webpack serve"
+    "build": "webpack",
+    "start": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "core-js": "^3.28.0",
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "regenerator-runtime": "^0.13.11",
     "sass": "^1.58.3",
