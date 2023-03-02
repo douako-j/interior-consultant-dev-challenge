@@ -39,7 +39,7 @@
 - This project helped me work on my ability to read a Figma design file and transform it into code
 - I was able to improve my skill in css layout with flex and grid
 - I was also able to work on responsive design management with sass media mixins
-- I used the mobil first patter
+- I used the mobile first patter
 
 ### Built With
 
